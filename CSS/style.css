@@ -1,0 +1,11 @@
+img{left: 50%;
+    right: 50%;
+    width: 10rem;
+    display: flex;
+    image-orientation: flip;
+    border-image: none;
+    size: "30px";
+}
+
+
+
