@@ -1,7 +1,12 @@
-img{left: 50%;
+body{
+    background-color: brown;
+    text-decoration-color: bisque;
+    text-align: center;
+}
+img{
+    width: 50%;
     right: 50%;
-    width: 300px;
-    display: flex;
+     display: inline-block;
     image-orientation: center;
     border-image: none;
     size: "300x300px";
@@ -22,9 +27,11 @@ nav.menu-nav ul li.btn a{
     font-size: 13px;
     margin: 6px 5px;
     border-radius: 2rem;
-
-
 }
+.container{
+    display: flex;
+}
+
 
 
 
