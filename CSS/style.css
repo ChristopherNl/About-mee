@@ -1,17 +1,27 @@
 body{
-    background-color: brown;
+    background-color: lightslategrey;
     text-decoration-color: bisque;
     text-align: center;
 }
-img{
-    width: 50%;
-    right: 50%;
-     display: inline-block;
-    image-orientation: center;
-    border-image: none;
-    size: "300x300px";
+.itemA1{ 
+    color: #cea725;
+    font-size: 16px;
+    font-family: cursive;
+    font-style: italic;
+    text-align: left;
+    text-shadow: #434343;
 
+    
 }
+img{
+        width: 300px;
+        right: 300px;
+        left: 300px;
+         display: inline-block;
+        image-orientation: left;
+        border-image: none;
+}
+
 nav.menu-nav ul li.btn{
     display: inline-block;
 
@@ -24,14 +34,82 @@ nav.menu-nav ul li.btn a{
     padding: 15px;
     text-align: center;
     display: inline-block;
-    font-size: 13px;
-    margin: 6px 5px;
-    border-radius: 2rem;
+    font-size: 16px;
+    margin: 14px 13px;
+    border-radius: 15rem;
 }
-.container{
-    display: flex;
+.container2{
+  color: blanchedalmond;
+  font-style: oblique 10deg;
+  flex-direction: row; 
 }
 
+.shadowbox1{
+    text-align: justify;
+    justify-items: center;
+    font-size: larger;
+    color: rgba(10, 0, 0, 0.703);
+    font-style:  italic;
+ width: 40%;
+ left: 0%;
+ right: 0%;
+  border: 1px solid #444;
+  box-shadow: 8px 8px 5px #444;
+  background-image: linear-gradient(180deg, #434343, #762e9a 40%, #ccc);
+ 
+  
+}
+.shadowbox2{
+    text-align: justify;
+    font-size: larger;
+    color: rgba(10, 0, 0, 0.703);
+    font-style:oblique;
+    width:50%;
+    left: 0%;
+    right: 0%;
+  border: 1px solid #444;
+  box-shadow: 8px 8px 5px #444;
+ background-image: linear-gradient(180deg, #434343, #2c59ab 40%, #ccc);
+  flex-flow:wrap;
+  justify-content:space-between
+}
+.shadowbox3{
+    text-align:start;
+font-size: larger;
+    color: rgba(10, 0, 0, 0.703);
+    font-style:oblique;
+    width: 60%;
+    left: 0%;
+    right: 0%;
+  border: 1px solid #444;
+  box-shadow: 8px 8px 5px #444;
+ background-image: linear-gradient(180deg, #434343, #bb2180 40%, #ccc);
+  flex-flow:wrap;
+  justify-content:space-between
+}
+.shadowbox4{
+    font-size: larger;
+    text-align: justify;
+    color: rgba(10, 0, 0, 0.703);
+    font-style:oblique;
+    width: 80%;
+    left: 40%;
+    right: 40%;
+  border: 1px solid #444;
+  box-shadow: 8px 8px 5px #444;
+ background-image: linear-gradient(180deg, #656565, #cea725 40%, #ccc);
+  flex-flow:nowrap;
+  justify-content:space-between ;
+  
+}
+.item{
+    text-align: right;
+    list-style: lower-roman;
+}
+
+    
+
+    
 
 
 
