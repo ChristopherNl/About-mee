@@ -14,7 +14,18 @@ footer{
     text-align: center;
 
 }
-
+nav.menu-nav ul li.btn a{
+    border: none;
+    background-color: burlywood   ;
+    text-decoration: none;
+    color: rgb(6, 1, 1);
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 14px 13px;
+    border-radius: 15rem;
+}
    
 
 nav.menu-nav ul li.btn{
@@ -53,8 +64,7 @@ nav.menu-nav ul li.btn{
 
 }
 img{
-        width: 300px;
-        height: 300px;
+       
          display: inline-block;
         image-orientation: center;
         border-image: none;
