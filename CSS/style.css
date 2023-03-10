@@ -12,15 +12,30 @@ footer{
     position: absolute;
     bottom: 0px;
     text-align: center;
+
 }
 
-@media screen and (max-width:995px){
+   
+
+nav.menu-nav ul li.btn{
+    display: inline-block;
+    height: auto;}
+
 .menu-nav{
-    display: none;
+    
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
 
 }
 
-}
+    
+
+    
+
+
 .itemI1{ 
     
     color: #cea725;
@@ -73,11 +88,11 @@ nav.menu-nav ul li.btn a{
     text-align: justify;
     justify-items: center;
     font-size: larger;
-    color: rgba(10, 0, 0, 0.703);
+    color: rgba(1, 14, 1, 0.703);
     font-style:  italic;
- width: 40%;
- left: 0%;
- right: 0%;
+  width: 40%;
+  left: 0%;
+  right: 0%;
   border: 1px solid #444;
   box-shadow: 8px 8px 5px #444;
   background-image: linear-gradient(180deg, #434343, #762e9a 40%, #ccc);
@@ -85,32 +100,32 @@ nav.menu-nav ul li.btn a{
 .shadowbox2{
     text-align: justify;
     font-size: larger;
-    color: rgba(10, 0, 0, 0.703);
+    color: rgba(250, 194, 64, 0.703);
     font-style:oblique;
     width:50%;
     left: 0%;
     right: 0%;
   border: 1px solid #444;
   box-shadow: 8px 8px 5px #444;
- background-image: linear-gradient(180deg, #434343, #2c59ab 40%, #ccc);
+  background-image: linear-gradient(180deg, #434343, #2c59ab 40%, #ccc);
   flex-flow:wrap;
   justify-content:space-between
 }
 .shadowbox3{
     text-align:start;
-font-size: larger;
-    color: rgba(10, 0, 0, 0.703);
+    font-size: larger;
+    color: rgba(16, 13, 1, 0.703);
     font-style:oblique;
     width: 60%;
     left: 0%;
     right: 0%;
-  border: 1px solid #444;
-  box-shadow: 8px 8px 5px #444;
- background-image: linear-gradient(180deg, #434343, #bb2180 40%, #ccc);
-  flex-flow:wrap;
-  justify-content:space-between
+    border: 1px solid #444;
+   box-shadow: 8px 8px 5px #444;
+   background-image: linear-gradient(180deg, #434343, #bb2180 40%, #ccc);
+   flex-flow:wrap;
+   justify-content:space-between
 }
-.shadowbox4{
+.shadowbox4{ 
     font-size: larger;
     text-align: justify;
     color: rgba(10, 0, 0, 0.703);
@@ -118,35 +133,37 @@ font-size: larger;
     width: 80%;
     left: 40%;
     right: 40%;
-  border: 1px solid #444;
-  box-shadow: 8px 8px 5px #444;
- background-image: linear-gradient(180deg, #656565, #cea725 40%, #ccc);
-  flex-flow:nowrap;
-  justify-content:space-between ;
+    border: 1px solid #444;
+    box-shadow: 8px 8px 5px #444;
+    background-image: linear-gradient(180deg, #656565, #cea725 40%, #ccc);
+    flex-flow:nowrap;
+    justify-content:space-between ;
   
 }
-.contenuP{
-    text-align: center;
-    inline-size:auto;
+.Passion1{
+    text-align: left;
     padding-left: auto;
     color:burlywood;
-    
-    
+    font-style: oblique ;
+    font-size: 14px;
+    background-image: 300px;
 }
-.Football{
-    display: flex;
-    height: 300px;
-    width: 300px;
-   
-}
-.Football2{
-    float: left;
-    align-items:center;
-    text-align:center;
-    display: flex;
-    width: 70%;
 
+.passions2{
+    margin: auto;
+    text-align: right;
+    padding-left: auto;
+    color:burlywood;
+    font-style: oblique ;
+    font-size: 14px;
+    background-image: 300px;
 }
+table{
+    margin: auto;
+}
+
+
+
 
 
 
