@@ -14,6 +14,7 @@ footer{
     text-align: center;
 
 }
+
 nav.menu-nav ul li.btn a{
     border: none;
     background-color: burlywood   ;
@@ -26,7 +27,10 @@ nav.menu-nav ul li.btn a{
     margin: 14px 13px;
     border-radius: 15rem;
 }
-   
+  
+.menu-nav{
+    display: none;
+}
 
 nav.menu-nav ul li.btn{
     display: inline-block;
