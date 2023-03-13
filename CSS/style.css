@@ -162,6 +162,7 @@ nav.menu-nav ul li.btn a{
 
 }
 .contenuP1{
+    font-family: cursive;
     text-align: left;
     padding-left: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -172,6 +173,7 @@ nav.menu-nav ul li.btn a{
 }
 
 .passions2{
+    font-family: cursive;
     margin: auto;
     text-align: right;
     padding-left: auto;
