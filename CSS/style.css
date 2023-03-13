@@ -43,13 +43,6 @@ footer{
        align-items: end;
     }
 }
-@media screen and (max-width:900px){
-    .containerbox{
-        display: flex;
-    }
-}
-
-    
 
 nav.menu-nav ul li.btn a{
     border: none;
@@ -119,8 +112,9 @@ nav.menu-nav ul li.btn a{
 }
 
 .shadowbox1{
+    align-content: center;
     font-family: cursive;
-    font-size:20px;
+    font: size 19px;
     border-radius: 1;
     text-align: right;
     color: blue;
@@ -130,7 +124,7 @@ nav.menu-nav ul li.btn a{
 }
 .shadowbox2{
     font-family: cursive;
-    font-size:20px;
+    font-size:18px;
     border-radius: 1;
     text-align: left;
     color: whitesmoke;
@@ -138,16 +132,18 @@ nav.menu-nav ul li.btn a{
     text-overflow: initial;
 
 }.shadowbox3{
+    align-items: center;
     font-family: cursive;
-    font-size: 20px;
+    font-size: 17px;
     text-align: right;
     color: brown;
     padding: right;
     text-overflow: initial;
 
 }.shadowbox4{
+    align-items: center;
     font-family: cursive;
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
    color: antiquewhite;
     padding: end;
@@ -155,20 +151,17 @@ nav.menu-nav ul li.btn a{
 
 }
 .shadowbox4 h2{
+    align-items: center;
     font-family: cursive;
 
 }
 .shadowbox4 p {
+    align-items: end;
   font-family: cursive;
    font-size: 20px;
 
 }
-
-
-
-
 .contenuP1{
-    
     text-align: left;
     padding-left: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
