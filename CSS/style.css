@@ -3,6 +3,11 @@
     padding:0;
     box-sizing: border-box; 
 }
+.prenom{
+    font-family: cursive;
+    font-size: 18px;
+    color:whitesmoke
+}
 
 body{
     background-color: lightslategrey;
@@ -64,8 +69,8 @@ nav.menu-nav ul li.btn{
 
 .itemI1{ 
     
-    color: #cea725;
-    font-size: 16px;
+    color:whitesmoke;
+    font-size: 18px;
     font-family: cursive;
     font-style: italic;
     max-width: 720px;
@@ -112,9 +117,9 @@ nav.menu-nav ul li.btn a{
 .shadowbox1{
     text-align: justify;
     justify-items: center;
-    font-size: larger;
+    font-size: 20px;
     color: rgba(1, 14, 1, 0.703);
-    font-style:  italic;
+    font-style: oblique;
   width: 40%;
   left: 0%;
   right: 0%;
@@ -124,9 +129,9 @@ nav.menu-nav ul li.btn a{
 }
 .shadowbox2{
     text-align: justify;
-    font-size: larger;
-    color: rgba(250, 194, 64, 0.703);
-    font-style:oblique;
+    font-size: 20px;
+    color: rgba(9, 6, 0, 0.703);
+    font-style:oblique ;
     width:50%;
     left: 0%;
     right: 0%;
@@ -137,10 +142,10 @@ nav.menu-nav ul li.btn a{
   justify-content:space-between
 }
 .shadowbox3{
-    text-align:start;
-    font-size: larger;
+    text-align:justify;
+    font-size: 20px;
     color: rgba(16, 13, 1, 0.703);
-    font-style:oblique;
+    font-style:oblique ;
     width: 60%;
     left: 0%;
     right: 0%;
@@ -151,7 +156,7 @@ nav.menu-nav ul li.btn a{
    justify-content:space-between
 }
 .shadowbox4{ 
-    font-size: larger;
+    font-size: 20px;
     text-align: justify;
     color: rgba(10, 0, 0, 0.703);
     font-style:oblique;
@@ -187,6 +192,15 @@ nav.menu-nav ul li.btn a{
 }
 table{
     margin: auto;
+    right: 15px;
+    font-size: 20px;
+}
+.Me{
+    font-size: 20px;
+    color: #ccc;
+    font-family: cursive;
+    font-size: 16px;
+
 }
 
 
