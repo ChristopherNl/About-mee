@@ -20,13 +20,31 @@ footer{
     text-align: center;
 
 }
-@media screen and (width: 600px){
-     .menu-nav{
+@media screen and (max-width: 900px){
+    
+     .itemI1{
+        display: flex;
+        padding:auto;
+    
+     }
+} 
+@media screen and (max-width:900px) {
+    footer{
         display: block;
-
+        position: relative;
+       padding: auto;
+       margin: auto;
     }
 }
-    
+@media screen and (max-width:900px){
+    .containerbox{
+        display: flex;
+    }
+}
+
+
+ 
+
 
 
 nav.menu-nav ul li.btn a{
