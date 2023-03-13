@@ -42,11 +42,6 @@ footer{
     }
 }
 
-
- 
-
-
-
 nav.menu-nav ul li.btn a{
     border: none;
     background-color: burlywood   ;
@@ -170,12 +165,14 @@ nav.menu-nav ul li.btn a{
     justify-content:space-between ;
   
 }
-.Passion1{
+.contenuP1{
+    
     text-align: left;
     padding-left: auto;
-    color:burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+     color:black;
     font-style: oblique ;
-    font-size: 14px;
     background-image: 300px;
 }
 
@@ -183,9 +180,9 @@ nav.menu-nav ul li.btn a{
     margin: auto;
     text-align: right;
     padding-left: auto;
-    color:burlywood;
-    font-style: oblique ;
     font-size: 14px;
+     color:black;
+    font-style: oblique ;
     background-image: 300px;
 }
 table{
